@@ -5,3 +5,5 @@
 wallet.json
 recovered_wallet.json
 ciphered_wallet.json
+
+Cargo.lock
