@@ -120,21 +120,6 @@ wallet-tools decipher -i ciphered_wallet.json -p Password123 -n 3
 - Never share your private keys or mnemonics
 - The ciphered mnemonic is intentionally invalid as a BIP39 phrase
 
-## Dependencies 📦
-
-```toml
-[dependencies]
-bip39 = "2.1.0"
-ring = "0.17.8"
-serde = { version = "1.0.216", features = ["derive"] }
-base64 = "0.22.1"
-solana-client = "1.17.16"
-solana-sdk = "1.17.16"
-getrandom = "0.2.15"
-serde_json = "1.0.133"
-clap = { version = "4.4.8", features = ["derive"] }
-```
-
 ## Contributing 🤝
 
 Contributions are welcome! Please feel free to submit a Pull Request.
