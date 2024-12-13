@@ -1,0 +1,7 @@
+/target
+
+.env
+
+wallet.json
+recovered_wallet.json
+ciphered_wallet.json
